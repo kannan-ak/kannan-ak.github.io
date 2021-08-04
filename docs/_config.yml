@@ -25,10 +25,11 @@ url: "https://kannan-ak.github.io" # the base hostname & protocol for your site,
 twitter_username: thisguyops
 github_username:  kannan-ak
 
-# Build settings
-theme: jekyll-theme-minimal
+# Build settings  
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-  - jekyll-feed
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+  
 
 # Exclude from processing.
 # The following items will not be processed, by default.
